@@ -1,0 +1,11 @@
+Comparing daily vs weekly vs monthly ema forecasts
+
+-Use constant parameters for each (0.5, 0.3, 0.15, 0.05)
+
+Daily:
+Use standard procedures to forecast next day and calculate SSR between predicted value and actual value
+
+Weekly (Monthly):
+Convert every 5 (25) days of data into 1 point using EMA, forecast using procedures then compare actual next week EMA to forecasted (SSR)
+
+Each time divide SSR by number of data points to have constant error value and compare errors

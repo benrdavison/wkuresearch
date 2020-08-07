@@ -1,0 +1,4 @@
+Goals:
+
+-Fit last 4 data points to a 4th degree polynomial curve, and use this curve to forecast one day into the future (using notes)
+-Create a linear fit over dataset and use sum squared residuals to measure volatility over set
